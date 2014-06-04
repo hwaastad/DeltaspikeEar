@@ -9,6 +9,7 @@
     <modules>
         <module>DeltaSpike</module>
         <module>DeltaSpikeEAR-ear</module>
+        <module>DeltaSpike-pomlib</module>
     </modules>
     <repositories>
         <repository>
