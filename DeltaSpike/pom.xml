@@ -124,6 +124,19 @@
                     <reloadOnUpdate>true</reloadOnUpdate>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.openejb.maven</groupId>
+                <artifactId>jarstxt-maven-plugin</artifactId>
+                <version>4.7.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <id>generate</id>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
